@@ -15,7 +15,7 @@ import Movie from './pages/Movie.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
 
-    <BrowserRouter>
+    <BrowserRouter basename="/movies-react/">
     <Routes>
       <Route element={<App />}>
 
